@@ -2,7 +2,7 @@
 Automated pipeline to intake Wikipedia data, Kaggle metadata, and MovieLens rating data and perform ETL by adding data to PostgreSQL database.
 
 ## Write ETL Function to Read in Data Files
-Created ETL function to import Wikipedia JSON file, Kaggle metadata file, and MovieLens ratings data file, then transform them into Pandas DataFrames.
+Created ETL function to import Wikipedia JSON file, Kaggle metadata file, and MovieLens ratings data file, then transformed them into Pandas DataFrames.
 <br>
 
 Example Code - ETL function<Br>
@@ -40,9 +40,9 @@ Pandas DataFrame<br>
 ![Combined DataFrame](./resources/combined-df.png)
 
 ## Extract and Transform Kaggle Data
-- Transform Kaggle metadata and MovieLens ratings data into separate DataFrames
-- Merge Kaggle DataFrame with Wikipedia DataFrame to create `movies_df`
-- Merge MovieLens ratings DataFrame with `movies_df` DataFrame to create `movies_with_ratings_df`
+- Transformed Kaggle metadata and MovieLens ratings data into separate DataFrames
+- Merged Kaggle DataFrame with Wikipedia DataFrame to create `movies_df`
+- Merged MovieLens ratings DataFrame with `movies_df` DataFrame to create `movies_with_ratings_df`
 
 Example Code<br>
 
@@ -56,3 +56,11 @@ Movies DataFrame<br>
 Movies with Ratings DataFrame<br>
 ![Movies with Ratings DF](./resources/movies-w-ratings-df.png)
 <Br>
+
+## Create Movie Database
+Added the `movies_df` DataFrame and MovieLens CSV data into SQL database.
+<br>
+
+Example Code:<br>
+
+![DataBase Creation Code](./resources/create-db.png)
