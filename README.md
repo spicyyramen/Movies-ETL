@@ -21,4 +21,20 @@ MovieLens Ratings DataFrame<br>
 ![MovieLens Dataframe](./resources/movielens-df.png)
 <br>
 
-## 
+## Extract and Transform Wikipedia Data
+Using Python, Pandas, ETL, and code refactoring- extracted and transformed Wikipedia data to merge with Kaggle metadata.
+
+<br>
+Example Code - ETL Function<br>
+
+![ETL Function](./resources/wiki-etl.png)
+
+<br>
+Example Code - Try-Except Statement<br>
+
+![Try-Except Statement](./resources/try-except.png)
+
+<br>
+Pandas DataFrame<br>
+
+![Combined DataFrame](./resources/combined-df.png)
