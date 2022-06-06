@@ -38,3 +38,8 @@ Example Code - Try-Except Statement<br>
 Pandas DataFrame<br>
 
 ![Combined DataFrame](./resources/combined-df.png)
+
+## Extract and Transform Kaggle Data
+- Transform Kaggle metadata and MovieLens ratings data into separate DataFrames
+- Merge Kaggle DataFrame with Wikipedia DataFrame to create `movies_df`
+- Merge MovieLens ratings DataFrame with `movies_df` DataFrame to create `movies_with_ratings_df`
