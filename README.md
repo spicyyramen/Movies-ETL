@@ -43,3 +43,16 @@ Pandas DataFrame<br>
 - Transform Kaggle metadata and MovieLens ratings data into separate DataFrames
 - Merge Kaggle DataFrame with Wikipedia DataFrame to create `movies_df`
 - Merge MovieLens ratings DataFrame with `movies_df` DataFrame to create `movies_with_ratings_df`
+
+Example Code<br>
+
+![Example Code](./resources/d3-exampleCode.png)
+<br>
+
+Movies DataFrame<br>
+![Movies DF](./resources/movies-df.png)
+<br>
+
+Movies with Ratings DataFrame<br>
+![Movies with Ratings DF](./resources/movies-w-ratings-df.png)
+<Br>
